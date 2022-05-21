@@ -28,7 +28,7 @@ public class RegistrationStepDefinition {
         Hooks.register.dayOfBirth();
         Hooks.register.monthOfBirth();
         Hooks.register.yearOfBirth();
-        Hooks.register.email().sendKeys("test3@gmail.com");
+        Hooks.register.email().sendKeys("test4@gmail.com");
         Hooks.register.companyName().sendKeys("Uranium");
         Hooks.register.password().sendKeys("P@ssw0rd");
         Hooks.register.confirmPassword().sendKeys("P@ssw0rd");
